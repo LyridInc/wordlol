@@ -1,0 +1,11 @@
+name: wordlol
+description: App Description
+ignoreFiles: .git .next node_modules
+modules:
+  - name: next
+    language: nodejs14.x
+    web: nextjs
+    description: Module description
+    functions:
+      - name: entry
+        description: the entry point for the function
